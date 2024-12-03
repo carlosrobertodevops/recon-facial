@@ -1,0 +1,4 @@
+---->[12/Sep/2022 09:58:20] INFO views Func:codificar_rosto Func:10339 Th:139855454529088 [Nome/Linha:default:31] Utilização do Método: U:86432770297 Tk: {'cpf': '86432770297', 'iat': 1662994631, 'exp': 1663016231, 'origem': 'default', 'data_consulta': datetime.datetime(2022, 9, 12, 14, 58, 20, 874669)}
+---->[12/Sep/2022 09:58:20] INFO views Func:codificar_rosto Func:10339 Th:139855454529088 [Nome/Linha:default:31] Utilização do Método: U:86432770297 Tk: {'cpf': '86432770297', 'iat': 1662994631, 'exp': 1663016231, 'origem': 'default', 'data_consulta': datetime.datetime(2022, 9, 12, 14, 58, 20, 874669)}
+---->[12/Sep/2022 09:58:22] INFO _internal Func:_log Func:10339 Th:139855454529088 [Nome/Linha:werkzeug:224] 127.0.0.1 - - [12/Sep/2022 09:58:22] "POST /foto/codificar HTTP/1.1" 200 -
+---->[12/Sep/2022 09:58:45] INFO _internal Func:_log Func:10339 Th:139856174034944 [Nome/Linha:werkzeug:224]  * Detected change in '/home/ciisp/recon-facial/api/views.py', reloading

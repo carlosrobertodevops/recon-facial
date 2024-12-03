@@ -1,0 +1,21 @@
+# Rodar em Modo DEBUG Com o Flask
+export FLASK_APP=main.py FLASK_DEBUG=True
+flask run --host=127.0.0.1 --port=5002
+
+# Post de exemplo utilizando o CURL
+curl -i -X POST \
+-H 'authorization:Bearer eyJhbGciOiJSUIkpXVCJ9.eyJjcGYixNjYyNzgyNTkwfQ.QdKXmR00' \
+-H 'forma_processamento:auto' -H 'origem:default' \
+-F "upload_image=@/home/ciisp/Imagens/3x4x.png" http://127.0.0.1:5002/foto/codificar
+
+# Usando Request Python
+import requests
+
+url = 'http://127.0.0.1:5002/foto/codificar'
+files = {'upload_image': open('/home/ciisp/Imagens/3x4x.png', 'rb')}
+headers = {'metodo': 'hog', 'repeticao': '1', 'authorization': 'Bearer eyJhJ9.eyJjfQ.QdKX00',
+           'origem': 'default', 'forma_processamento': 'auto'}
+
+r = requests.post(url, files=files, headers=headers)
+
+print(r.text)

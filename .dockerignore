@@ -1,0 +1,8 @@
+.venv
+.git*
+.vscode
+Dockerfile*
+log/*
+**/migrations/*
+**/__pycache__/*
+testes

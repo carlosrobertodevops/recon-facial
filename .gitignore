@@ -1,0 +1,9 @@
+.venv
+.vscode
+.git
+.env
+.sqlite3
+#static
+anexosapp
+*Teste.py*
+*__pycache__*
